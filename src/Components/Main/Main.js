@@ -26,10 +26,10 @@ class Main extends React.Component{
                     <input type='text' name='textBottom' value={this.state.textBottom} placeHolder='QUESTO SOTTO' onChange={this.onChangeHandler}/>
                     <button>GENERA</button>
                 </form>
-                <div className='meme'>
-                    <img src={cina} height='400px'/>
-                    <h2 className="top">{this.state.textUp}</h2>
-                    <h2 className="bottom">{this.state.textBottom}</h2>
+                <div className='meme' style={{backgroundImage: `url(${cina})`}}>
+                    
+                    <p className="top">{this.state.textUp}</p>
+                    <p className="bottom">{this.state.textBottom}</p>
                 </div>
             </div>
         )
