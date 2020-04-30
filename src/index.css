@@ -74,7 +74,7 @@ code {
   position: relative;
 }
 
-p {
+.meme p {
   position: absolute; 
   left: 0;
   right: 0; 
@@ -112,6 +112,21 @@ select {
   margin-top: 10px;
   margin-left: 5px;
   
+}
+
+footer{
+  height: 30px;
+  background-color: #264653;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+  align-items: center;
+  color: #f4a261
+}
+
+footer p{
+  margin-right: 5px;
 }
 
 

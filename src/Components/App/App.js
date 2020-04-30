@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import Main from '../Main/Main'
 import cina from './cina.jpeg'
 import claretto from './claretto.jpg'
+import Footer from '../Footer/Footer'
 
 import './App.css';
 class App extends React.Component{
@@ -62,6 +63,7 @@ class App extends React.Component{
             <Main  currentMeme={this.state.currentMeme} currentImg={this.state.currentImg} textUp={this.state.textUp} textBottom={this.state.textBottom}
             onChangeHandler={this.onChangeHandler} imgChooseHandle={this.imgChooseHandle}/>
           </div>
+          <Footer />
         </div>
       );
   }    
