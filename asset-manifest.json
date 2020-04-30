@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/memegenerator/static/css/main.441bc4e6.chunk.css",
-    "main.js": "/memegenerator/static/js/main.858d56fb.chunk.js",
-    "main.js.map": "/memegenerator/static/js/main.858d56fb.chunk.js.map",
+    "main.css": "/memegenerator/static/css/main.826aa79e.chunk.css",
+    "main.js": "/memegenerator/static/js/main.f8458f89.chunk.js",
+    "main.js.map": "/memegenerator/static/js/main.f8458f89.chunk.js.map",
     "runtime-main.js": "/memegenerator/static/js/runtime-main.06d47b28.js",
     "runtime-main.js.map": "/memegenerator/static/js/runtime-main.06d47b28.js.map",
     "static/js/2.6b4665d4.chunk.js": "/memegenerator/static/js/2.6b4665d4.chunk.js",
     "static/js/2.6b4665d4.chunk.js.map": "/memegenerator/static/js/2.6b4665d4.chunk.js.map",
     "index.html": "/memegenerator/index.html",
-    "precache-manifest.089b3ea2a2d5a8975932622bf4a21793.js": "/memegenerator/precache-manifest.089b3ea2a2d5a8975932622bf4a21793.js",
+    "precache-manifest.4376f3e136a66399c205f38163945eb6.js": "/memegenerator/precache-manifest.4376f3e136a66399c205f38163945eb6.js",
     "service-worker.js": "/memegenerator/service-worker.js",
-    "static/css/main.441bc4e6.chunk.css.map": "/memegenerator/static/css/main.441bc4e6.chunk.css.map",
+    "static/css/main.826aa79e.chunk.css.map": "/memegenerator/static/css/main.826aa79e.chunk.css.map",
     "static/js/2.6b4665d4.chunk.js.LICENSE.txt": "/memegenerator/static/js/2.6b4665d4.chunk.js.LICENSE.txt",
     "static/media/cina.jpeg": "/memegenerator/static/media/cina.a9a07d89.jpeg",
     "static/media/claretto.jpg": "/memegenerator/static/media/claretto.c19f62bb.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.06d47b28.js",
     "static/js/2.6b4665d4.chunk.js",
-    "static/css/main.441bc4e6.chunk.css",
-    "static/js/main.858d56fb.chunk.js"
+    "static/css/main.826aa79e.chunk.css",
+    "static/js/main.f8458f89.chunk.js"
   ]
 }
