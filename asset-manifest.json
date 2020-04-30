@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/memegenerator/static/css/main.34637e73.chunk.css",
-    "main.js": "/memegenerator/static/js/main.01335ac5.chunk.js",
-    "main.js.map": "/memegenerator/static/js/main.01335ac5.chunk.js.map",
+    "main.css": "/memegenerator/static/css/main.411412ac.chunk.css",
+    "main.js": "/memegenerator/static/js/main.858d56fb.chunk.js",
+    "main.js.map": "/memegenerator/static/js/main.858d56fb.chunk.js.map",
     "runtime-main.js": "/memegenerator/static/js/runtime-main.06d47b28.js",
     "runtime-main.js.map": "/memegenerator/static/js/runtime-main.06d47b28.js.map",
-    "static/js/2.b01ef696.chunk.js": "/memegenerator/static/js/2.b01ef696.chunk.js",
-    "static/js/2.b01ef696.chunk.js.map": "/memegenerator/static/js/2.b01ef696.chunk.js.map",
+    "static/js/2.6b4665d4.chunk.js": "/memegenerator/static/js/2.6b4665d4.chunk.js",
+    "static/js/2.6b4665d4.chunk.js.map": "/memegenerator/static/js/2.6b4665d4.chunk.js.map",
     "index.html": "/memegenerator/index.html",
-    "precache-manifest.ebe9b331fe897f6d1538913634c19a0a.js": "/memegenerator/precache-manifest.ebe9b331fe897f6d1538913634c19a0a.js",
+    "precache-manifest.31cd36882beac23c643ff0bf7b94e328.js": "/memegenerator/precache-manifest.31cd36882beac23c643ff0bf7b94e328.js",
     "service-worker.js": "/memegenerator/service-worker.js",
-    "static/css/main.34637e73.chunk.css.map": "/memegenerator/static/css/main.34637e73.chunk.css.map",
-    "static/js/2.b01ef696.chunk.js.LICENSE.txt": "/memegenerator/static/js/2.b01ef696.chunk.js.LICENSE.txt",
+    "static/css/main.411412ac.chunk.css.map": "/memegenerator/static/css/main.411412ac.chunk.css.map",
+    "static/js/2.6b4665d4.chunk.js.LICENSE.txt": "/memegenerator/static/js/2.6b4665d4.chunk.js.LICENSE.txt",
     "static/media/cina.jpeg": "/memegenerator/static/media/cina.a9a07d89.jpeg",
-    "static/media/cina2.png": "/memegenerator/static/media/cina2.20197d04.png",
     "static/media/claretto.jpg": "/memegenerator/static/media/claretto.c19f62bb.jpg",
-    "static/media/icona.png": "/memegenerator/static/media/icona.2619645c.png"
+    "static/media/iconaCina.png": "/memegenerator/static/media/iconaCina.2619645c.png",
+    "static/media/iconaCina2.png": "/memegenerator/static/media/iconaCina2.20197d04.png",
+    "static/media/iconaClaretto.png": "/memegenerator/static/media/iconaClaretto.693b36ce.png"
   },
   "entrypoints": [
     "static/js/runtime-main.06d47b28.js",
-    "static/js/2.b01ef696.chunk.js",
-    "static/css/main.34637e73.chunk.css",
-    "static/js/main.01335ac5.chunk.js"
+    "static/js/2.6b4665d4.chunk.js",
+    "static/css/main.411412ac.chunk.css",
+    "static/js/main.858d56fb.chunk.js"
   ]
 }
