@@ -17,6 +17,7 @@ class App extends React.Component{
     }
     this.onChangeHandler = this.onChangeHandler.bind(this)
     this.imgChooseHandle = this.imgChooseHandle.bind(this)
+    this.reset = this.reset.bind(this)
   }
   onChangeHandler(event){
     let testo = event.target.value;
@@ -55,13 +56,16 @@ class App extends React.Component{
     
     }
   }
+  reset(){
+    this.setState({textUp: '', textBottom: ''})
+  }
   render(){
     return(
         <div className="App">
           <div className='container'>
             <Header currentMeme={this.state.currentMeme}/>
             <Main  currentMeme={this.state.currentMeme} currentImg={this.state.currentImg} textUp={this.state.textUp} textBottom={this.state.textBottom}
-            onChangeHandler={this.onChangeHandler} imgChooseHandle={this.imgChooseHandle}/>
+            onChangeHandler={this.onChangeHandler} imgChooseHandle={this.imgChooseHandle} reset={this.reset}/>
           </div>
           <Footer />
         </div>
