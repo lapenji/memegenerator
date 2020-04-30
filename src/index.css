@@ -105,6 +105,7 @@ p {
 }
 
 select {
+  -webkit-appearance: none;
   background-color: #264653;
   color: #f4a261;
   font-size: 20px;
