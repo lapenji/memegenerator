@@ -1,40 +1,43 @@
 import React from 'react'
 import cina from './cina.jpeg'
+import claretto from './claretto.jpg'
+
+
 
 class Main extends React.Component{
-    constructor(){
-        super()
-        this.state={
-            textUp: '',
-            textBottom: ''
-        }
-        this.onChangeHandler = this.onChangeHandler.bind(this)
+    constructor(props){
+        super(props)
+        this.handleChoose = this.handleChoose.bind(this)
     }
-    onChangeHandler(event){
-        let testo = event.target.value;
-        let dove = event.target.name
-        this.setState({
-            [dove]: testo
-        })
-    }   
+    handleChoose(event){
+        this.props.imgChooseHandle(event.target.value)
+    }
     render(){
-        return(
-            <div className='main'>
-                <h1>Genera il tuo CinaMeme</h1>
+    return(
+        <div className='main'>
+            <div className='generatore'>
+                <h1>GENERA IL TUO {this.props.currentMeme}MEME</h1>
                 <form>
-                    <input type='text' name='textUp' value={this.state.textUp} placeHolder='QUESTO SOPRA' onChange={this.onChangeHandler}/>
-                    <input type='text' name='textBottom' value={this.state.textBottom} placeHolder='QUESTO SOTTO' onChange={this.onChangeHandler}/>
-                    <button>GENERA</button>
+                    <input type='text' name='textUp' value={this.props.textUp} placeHolder='QUESTO SOPRA' onChange={this.props.onChangeHandler}/>
+                    <input type='text' name='textBottom' value={this.props.textBottom} placeHolder='QUESTO SOTTO' onChange={this.props.onChangeHandler}/>                    
                 </form>
-                <div className='meme' style={{backgroundImage: `url(${cina})`}}>
-                    
-                    <p className="top">{this.state.textUp}</p>
-                    <p className="bottom">{this.state.textBottom}</p>
-                </div>
             </div>
+            <div class='memeconswitcher'>
+                <div className='meme' style={{backgroundImage: `url(${this.props.currentImg})`}}>    
+                    <p className="top">{this.props.textUp}</p>
+                    <p className="bottom">{this.props.textBottom}</p>
+                </div>
+                    <span>choose your meme</span>
+                    <select name='currentImg' onChange={this.handleChoose}>
+                        <option value='cina'>Cina</option>
+                        <option value='claretto'>Claretto</option>
+                    </select>
+            </div>
+        </div>
         )
     }
 }
+
 
 
 export default Main
